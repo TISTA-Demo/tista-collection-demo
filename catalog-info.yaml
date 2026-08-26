@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tista_demo.tista
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: TISTA-Demo/tista-collection-demo
+spec:
+  type: collection-project
+  system: Tista Collection Demo
+  lifecycle: production
+  owner: user:default/shall-tista
