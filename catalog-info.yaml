@@ -14,11 +14,3 @@ spec:
   system: tista-collection-demo
   lifecycle: production
   owner: user:default/shall-tista
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: tista-collection-demo
-  description: Demo Ansible collection created via the RHDH Ansible plugin
-spec:
-  owner: user:default/shall-tista
